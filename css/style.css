@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=MedievalSharp&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Martel;
+}
+
+h1, h2, h3, h4 {
+  font-family: MedievalSharp;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container-banner {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.worldanvil.com/uploads/images/64e5887dea74215fe6a18bca47863a8b.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container-banner h2{
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.container-banner p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.btn-banner {
+  width: 60px;
+  height: 60px;
+  background-color: firebrick;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  border-color: white;
+  border: solid
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container-cards {
+  width: 900px;
+  margin: auto;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height: 70px;
+}
+
+.card p {
+  opacity: .8;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #5e0505;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #bb0e0e;
+}
+
+.footer p {
+  color: #ffffff;
+}
